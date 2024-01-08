@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(stg-moai-dao.com www.stg-moai-dao.com)
+domains=(ns1.xvps.ne.jp www.ns1.xvps.ne.jp)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="daomoai11@gmail.com" # Adding a valid address is strongly recommended
